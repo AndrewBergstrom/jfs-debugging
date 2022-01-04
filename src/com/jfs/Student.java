@@ -34,7 +34,7 @@ public class Student {
 
 
     public LocalDate getDob() {
-        return gpa;
+        return dob;
     }
     public void setDob(LocalDate dob) {
         this.dob = dob;
