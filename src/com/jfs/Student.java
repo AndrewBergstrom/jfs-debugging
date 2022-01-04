@@ -10,7 +10,7 @@ public class Student {
 
 
 
-    public Student(String email, String name, LocalDate dob, float gpa) {
+    public Student(String name, String email, LocalDate dob, float gpa) {
         this.name = name;
         this.email = email;
         this.dob = dob;
@@ -19,7 +19,7 @@ public class Student {
 
 
     public String getName() {
-        return email;
+        return name;
     }
     public void setName(String name) {
         this.name = name;
